@@ -13,7 +13,7 @@
 
 echo "---- Install broadcom driver ----"
 echo "================================="
-sudo pacman -U broadcom-wl-6.30.223.271-3-x86_64.pkg.tar.xz 
+sudo pacman -U broadcom-wl-6.30.223.271-4-x86_64.pkg.tar.xz
 
 read -p "Would you like to reboot your computer now [y/n] ? " yn
 case $yn in
